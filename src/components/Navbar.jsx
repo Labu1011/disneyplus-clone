@@ -99,7 +99,12 @@ export const Navbar = () => {
           </NavMenu>
 
           <SignOut>
-            <UserImg src={userphoto} alt={username} />
+            <UserImg
+              src={userphoto}
+              alt={username}
+              referrerpolicy='no-referrer'
+            />
+
             <DropDown>
               <span onClick={handleAuth}>Sign out</span>
             </DropDown>
